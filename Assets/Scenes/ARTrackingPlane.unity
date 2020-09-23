@@ -401,6 +401,8 @@ GameObject:
   - component: {fileID: 2007717067}
   - component: {fileID: 2007717066}
   - component: {fileID: 2007717068}
+  - component: {fileID: 2007717070}
+  - component: {fileID: 2007717069}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -450,3 +452,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 7085137606796781845, guid: d1c0abbe74b4e8842b2370cd681db4f9, type: 3}
   m_DetectionMode: -1
+--- !u!114 &2007717069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007717065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63dce014ca080ff4892b32304b0474de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  srcObject: {fileID: 1944505896641800087, guid: 541be63bf6a16194aa848e1a98cbce01, type: 3}
+--- !u!114 &2007717070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007717065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
